@@ -5,7 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
+/* :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -15,10 +15,10 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -27,4 +27,73 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
+
+
+:root {
+  --primary-color: #3a7bd5; /* Deep blue for trust and professionalism */
+  --primary-dark: #335fa0;
+  --primary-darker: #2a4d7e;
+  --primary-darkest: #20385c;
+  --primary-light: #4b8ae3;
+  --primary-lighter: #5c9ef1;
+  --primary-lightest: #6eb3ff;
+  
+  --secondary-color: #86b9e3; /* Light blue for calm and clarity */
+  --secondary-dark: #709cc4;
+  --secondary-darker: #5b7fa5;
+  --secondary-darkest: #456386;
+  --secondary-light: #a0cdeb;
+  --secondary-lighter: #bae1f3;
+  --secondary-lightest: #d4f5fb;
+  
+  --accent-color: #e9573f; /* Orange for energy and innovation */
+  --accent-dark: #c44d35;
+  --accent-darker: #a0422c;
+  --accent-darkest: #7d3623;
+  --accent-light: #f27563;
+  --accent-lighter: #f79382;
+  --accent-lightest: #fbb1a1;
+  
+  --background-color: #f4f4f9; /* Light grey for a clean and modern look */
+  --text-color: #333; /* Dark grey for readability */
+  --muted-text-color: #666; /* Lighter grey for muted text */
+  --highlight-bg-color: rgba(58, 123, 213, 0.1); /* Light blue highlight background */
+  
+  --code-font-size: 95%;
+  --highlighted-code-line-bg: rgba(58, 123, 213, 0.1);
+}
+
+/* Dark Mode Styles */
+[data-theme='dark'] {
+  --primary-color: #25c2a0; /* Bright teal for a fresh, modern look in dark mode */
+  --primary-dark: #21af90;
+  --primary-darker: #1fa588;
+  --primary-darkest: #1a8870;
+  --primary-light: #29d5b0;
+  --primary-lighter: #32d8b4;
+  --primary-lightest: #4fddbf;
+  
+  --secondary-color: #5c9ef1; /* Light blue for a soothing contrast in dark mode */
+  --secondary-dark: #4b8ae3;
+  --secondary-darker: #3a76d5;
+  --secondary-darkest: #2a61c7;
+  --secondary-light: #6eb3ff;
+  --secondary-lighter: #7fc8ff;
+  --secondary-lightest: #91ddff;
+  
+  --accent-color: #e9573f; /* Keeping the same accent color for consistency */
+  --accent-dark: #c44d35;
+  --accent-darker: #a0422c;
+  --accent-darkest: #7d3623;
+  --accent-light: #f27563;
+  --accent-lighter: #f79382;
+  --accent-lightest: #fbb1a1;
+  
+  --background-color: #1e1e2e; /* Dark grey for a modern look in dark mode */
+  --text-color: #e4e4e4; /* Light grey for readability in dark mode */
+  --muted-text-color: #b0b0b0; /* Muted grey for secondary text */
+  --highlight-bg-color: rgba(37, 194, 160, 0.1); /* Teal highlight background */
+  
+  --highlighted-code-line-bg: rgba(37, 194, 160, 0.3);
 }
