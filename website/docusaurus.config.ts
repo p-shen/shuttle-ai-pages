@@ -98,11 +98,11 @@ const config: Config = {
           items: [
             {
               label: 'WeChat',
-              href: 'test',
+              href: '/about',
             },
             {
               label: 'Discord',
-              href: 'test',
+              href: '/about',
             }
           ],
         },
