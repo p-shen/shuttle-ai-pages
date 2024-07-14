@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/app">
-            Try It Now
+            Launch Demo
           </Link>
         </div>
       </div>
@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Shuttle AI - Private and Personalized Care Assistant">
       <HomepageHeader />
       <main>

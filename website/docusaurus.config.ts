@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Shuttle AI',
   tagline: 'Private and Personalized Care Assistant',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo_96.png',
 
   // Set the production url of your site here
   url: 'https://www.shuttleai.xyz',
@@ -57,21 +57,22 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo_512.png',
     navbar: {
       title: 'Shuttle AI',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo_512.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Product',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/about', label: 'About', position: 'left' },
         { to: '/app', label: 'App', position: 'right' },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
@@ -84,10 +85,10 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Product',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Product',
               to: '/docs/intro',
             },
           ],
@@ -96,17 +97,13 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'WeChat',
+              href: '',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+              href: '',
+            }
           ],
         },
         {
@@ -115,11 +112,7 @@ const config: Config = {
             {
               label: 'Blog',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            }
           ],
         },
       ],
