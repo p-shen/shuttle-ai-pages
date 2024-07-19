@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Shuttle AI',
-  tagline: 'Private and Personalized Care Assistant',
+  tagline: 'Personalized therapy assistant at every step of the recovery journey.',
   favicon: 'img/logo_96.png',
 
   // Set the production url of your site here
@@ -60,8 +60,9 @@ const config: Config = {
     image: 'img/logo_512.png',
     navbar: {
       title: 'Shuttle AI',
+      // style: 'light',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Shuttle AI Logo',
         src: 'img/logo_512.png',
       },
       items: [
@@ -82,7 +83,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Product',
@@ -122,7 +123,14 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
   } satisfies Preset.ThemeConfig,
+
 };
+
 
 export default config;

@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/app">
-            Launch Demo
+            See How
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Shuttle AI - Private and Personalized Care Assistant">
+      description="Shuttle AI">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

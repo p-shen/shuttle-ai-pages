@@ -6,4 +6,4 @@ description: About Description
 
 # Contact
 
-For questions email [peter@shuttleai.xyz](mail:peter@shuttleai.xyz)
+For questions email [contact@shuttleai.xyz](mail:contact@shuttleai.xyz)
