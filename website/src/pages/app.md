@@ -4,6 +4,8 @@ description: App Description
 # hide_table_of_contents: true
 ---
 
-# Coming Soon
+# Personalized Therapy Demo
 
-Stay tuned.
+## Physiotherapy Assessment Module
+
+See the demo application on HuggingFace: [Launch Demo](https://huggingface.co/spaces/pzshen/shuttle-ai)

@@ -82,8 +82,12 @@ const config: Config = {
         // },
       ],
     },
+    metadata: [
+      { name: 'keywords', content: 'AI physiotherapy, personalized rehab, digital physical therapy, home exercise program, AI-powered rehabilitation, telehealth physiotherapy, smart recovery app, custom treatment plan, virtual physical therapy, injury recovery app, AI health assistant, remote physiotherapy, physical therapy tech, AI rehab planning, physiotherapy tracking app, intelligent exercise guidance, digital health innovation, AI movement assessment, physiotherapy progress tracker, personalized exercise videos' },
+      { name: 'description', content: 'Experience personalized physiotherapy powered by AI. Our innovative product provides tailored treatment plans, guided exercises, and progress tracking to support your recovery journey from the comfort of your home. Revolutionize your rehab with cutting-edge technology and expert-designed programs.' }
+    ],
     footer: {
-      style: 'light',
+      // style: 'light',
       links: [
         {
           title: 'Product',
