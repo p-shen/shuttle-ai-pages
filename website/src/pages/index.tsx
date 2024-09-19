@@ -24,6 +24,14 @@ function HomepageHeader() {
             See How
           </Link>
         </div>
+        <br />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/app_cn">
+            产品展示
+          </Link>
+        </div>
       </div>
     </header>
   );

@@ -51,6 +51,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-YEE65BECW5',
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -75,6 +79,7 @@ const config: Config = {
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/about', label: 'About', position: 'left' },
         { to: '/app', label: 'App', position: 'right' },
+        { to: '/app_cn', label: '产品展示', position: 'right' },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'App',
@@ -94,7 +99,7 @@ const config: Config = {
           items: [
             {
               label: 'Product',
-              to: '/docs/intro',
+              to: '/docs/the_challenge',
             },
           ],
         },
